@@ -1,0 +1,40 @@
+Quick Start (Windows / PowerShell)
+1) Create & activate a virtual environment
+python -m venv .venv
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
+pip install -r .\requirements.txt
+
+2) Add the template locally
+New-Item -ItemType Directory -Force .\templates | Out-Null
+Copy-Item -Force "C:\Path\To\DS_SampleC1.xml" .\templates\DS_SampleC1.xml
+
+3) Generate Discharge Summaries
+$run = "output_run_" + (Get-Date -Format "yyyyMMdd_HHmmss")
+New-Item -ItemType Directory -Force -Path $run | Out-Null
+
+python .\tools\ds_from_template_generate.py `
+  --template .\templates\DS_SampleC1.xml `
+  --outdir $run `
+  --count 10
+
+
+Optional: deterministic generation (useful for debugging)
+
+python .\tools\ds_from_template_generate.py `
+  --template .\templates\DS_SampleC1.xml `
+  --outdir $run `
+  --count 10 `
+  --seed 123
+
+Output
+
+Generated files are written to your chosen output folder:
+
+ds_001.xml
+
+ds_002.xml
+
+…
+
+ds_###.xml
