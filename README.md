@@ -51,52 +51,9 @@ Copy code
 ```bash
 pip install -r requirements.txt
 If you hit lxml errors, ensure lxml is listed in requirements.txt and reinstall.
-
-Quick Start (Windows / PowerShell)
-1) Create & activate a virtual environment
-powershell
-Copy code
-python -m venv .venv
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.\.venv\Scripts\Activate.ps1
-pip install -r .\requirements.txt
-2) Add the template locally
-powershell
-Copy code
-New-Item -ItemType Directory -Force .\templates | Out-Null
-Copy-Item -Force "C:\Path\To\DS_SampleC1.xml" .\templates\DS_SampleC1.xml
-3) Generate Discharge Summaries
-powershell
-Copy code
-$run = "output_run_" + (Get-Date -Format "yyyyMMdd_HHmmss")
-New-Item -ItemType Directory -Force -Path $run | Out-Null
-
-python .\tools\ds_from_template_generate.py `
-  --template .\templates\DS_SampleC1.xml `
-  --outdir $run `
-  --count 10
-Optional: deterministic generation (useful for debugging)
-
-powershell
-Copy code
-python .\tools\ds_from_template_generate.py `
-  --template .\templates\DS_SampleC1.xml `
-  --outdir $run `
-  --count 10 `
-  --seed 123
-Output
-Generated files are written to your chosen output folder:
-
-ds_001.xml
-
-ds_002.xml
-
-…
-
-ds_###.xml
-
 What stays the same vs what changes
 Preserved (identical to DS_SampleC1)
+
 Segment/group structure and ordering
 
 Repeating group counts and positions (e.g., PROCEDURE×2, OBSERVATION×10)
@@ -104,6 +61,7 @@ Repeating group counts and positions (e.g., PROCEDURE×2, OBSERVATION×10)
 OBR-4 and OBX-3 identifiers/headings and order (template “section headings”)
 
 Mutated (regenerated values)
+
 MSH
 
 MSH-7 timestamp
@@ -149,6 +107,7 @@ Headings stay fixed
 Narrative text (OBX-5) regenerated in clinical-style English
 
 Safety / Privacy
+
 All data is synthetic and for testing/demos only
 
 Not suitable for clinical decision-making
