@@ -1,6 +1,10 @@
-## Quick Start (Windows / PowerShell)
+# Quick Start Guide
 
-### 1) Create and activate a virtual environment
+## Installation
+
+### Windows / PowerShell
+
+#### 1) Create and activate a virtual environment
 
 ```powershell
 python -m venv .venv
@@ -37,7 +41,7 @@ python .\tools\ds_from_template_generate.py `
   --count 10 `
   --seed 123
 Output
-Generated files are written to the output folder you specified (e.g., $run):
+Generated files are written to your chosen output folder (e.g. $run):
 
 ds_001.xml
 
@@ -47,5 +51,26 @@ ds_002.xml
 
 ds_010.xml
 
-pgsql
+markdown
 Copy code
+
+### The 2 key fixes vs your current file
+- Every code block **must** have an opening **and** closing triple backtick fence:
+  - ` ```powershell`  
+  - …commands…  
+  - ` ````
+- Delete any lines like **`powershell`** / **`Copy code`** — those came from the GitHub UI and will ruin formatting.
+
+If you want to keep it as a **numbered list (1. 2. 3.)** instead of headings, tell me and I’ll format it correctly (code blocks inside numbered lists need indentation).
+
+
+
+
+
+
+
+
+
+Extended thinking
+
+
