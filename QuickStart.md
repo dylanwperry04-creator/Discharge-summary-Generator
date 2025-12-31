@@ -15,26 +15,26 @@ pip install -r .\requirements.txt
 Create a local templates folder and copy DS_SampleC1.xml into it:
 
 powershell
-Copy code
+
 New-Item -ItemType Directory -Force .\templates | Out-Null
 Copy-Item -Force "C:\Path\To\DS_SampleC1.xml" .\templates\DS_SampleC1.xml
 3) Generate Discharge Summaries
 Create a timestamped output folder and generate 10 files:
 
 powershell
-Copy code
+
 $run = "output_run_" + (Get-Date -Format "yyyyMMdd_HHmmss")
 New-Item -ItemType Directory -Force -Path $run | Out-Null
 
 python .\tools\ds_from_template_generate.py `
   --template .\templates\DS_SampleC1.xml `
   --outdir $run `
-  --count 10
+  --count 10`
 Optional: deterministic generation (useful for debugging)
 Use a seed to produce repeatable outputs:
 
 powershell
-Copy code
+
 python .\tools\ds_from_template_generate.py `
   --template .\templates\DS_SampleC1.xml `
   --outdir $run `
