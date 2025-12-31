@@ -50,27 +50,3 @@ ds_002.xml
 …
 
 ds_010.xml
-
-markdown
-Copy code
-
-### The 2 key fixes vs your current file
-- Every code block **must** have an opening **and** closing triple backtick fence:
-  - ` ```powershell`  
-  - …commands…  
-  - ` ````
-- Delete any lines like **`powershell`** / **`Copy code`** — those came from the GitHub UI and will ruin formatting.
-
-If you want to keep it as a **numbered list (1. 2. 3.)** instead of headings, tell me and I’ll format it correctly (code blocks inside numbered lists need indentation).
-
-
-
-
-
-
-
-
-
-Extended thinking
-
-
