@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="DisSumm_2.4.xsl"?>
+<REF_I12 xmlns="urn:hl7-org:v2xml">
+  <MSH>
+    <MSH.1>|</MSH.1>
+    <MSH.2>^~\&amp;</MSH.2>
+    <MSH.3>
+      <HD.1>DMF_EDS.HEALTHLINK.5</HD.1>
+      <HD.2></HD.2>
+      <HD.3></HD.3>
+    </MSH.3>
+    <MSH.4>
+      <HD.1>St Vincents Hospital</HD.1>
+      <HD.2>910</HD.2>
+      <HD.3>DOH</HD.3>
+    </MSH.4>
+    <MSH.6>
+      <HD.1>PETERS, PETER</HD.1>
+      <HD.2>001111.1234</HD.2>
+      <HD.3>MCN.HLPracticeID</HD.3>
+    </MSH.6>
+    <MSH.7>
+      <TS.1>202501041130</TS.1>
+    </MSH.7>
+    <MSH.9>
+      <MSG.1>REF</MSG.1>
+      <MSG.2>I12</MSG.2>
+    </MSH.9>
+    <MSH.10>1701041130570</MSH.10>
+    <MSH.11>
+      <PT.1>P</PT.1>
+    </MSH.11>
+    <MSH.12>
+      <VID.1>2.4</VID.1>
+    </MSH.12>
+  </MSH>
+  <REF_I12.PROVIDER_CONTACT>
+    <PRD>
+      <PRD.1>
+        <CE.1>PP</CE.1>
+        <CE.2>Primary Care Provider</CE.2>
+        <CE.3>HL70286</CE.3>
+        <CE.4></CE.4>
+        <CE.5></CE.5>
+        <CE.6></CE.6>
+      </PRD.1>
+      <PRD.2>
+        <XPN.1>
+          <FN.1>O`KEANE</FN.1>
+        </XPN.1>
+        <XPN.2>PETER</XPN.2>
+        <XPN.3></XPN.3>
+        <XPN.4></XPN.4>
+        <XPN.5>DR</XPN.5>
+        <XPN.6></XPN.6>
+      </PRD.2>
+      <PRD.3>
+        <XAD.1>
+          <SAD.1>Elm park</SAD.1>
+        </XAD.1>
+        <XAD.2>Dublin 4</XAD.2>
+        <XAD.3>CO.DUBLIN</XAD.3>
+        <XAD.4></XAD.4>
+      </PRD.3>
+      <PRD.4>
+        <PL.1></PL.1>
+        <PL.6></PL.6>
+        <PL.9></PL.9>
+      </PRD.4>
+      <PRD.5>
+        <XTN.1> </XTN.1>
+      </PRD.5>
+      <PRD.7>
+        <PI.1></PI.1>
+        <PI.2></PI.2>
+        <PI.3>O`KEANE, PETER</PI.3>
+      </PRD.7>
+    </PRD>
+  </REF_I12.PROVIDER_CONTACT>
+  <PID>
+     <PID.3>
+      <CX.1>123456789012345678</CX.1>
+      <CX.4>
+        <HD.1>HSE</HD.1>
+        <HD.2/>
+        <HD.3/>
+      </CX.4>
+      <CX.5>IHINumber</CX.5>
+    </PID.3>
+	<PID.3>
+      <CX.1>0741128</CX.1>
+      <CX.4>
+        <HD.1>Cavan Hospital</HD.1>
+        <HD.2 />
+        <HD.3 />
+      </CX.4>
+      <CX.5>MRN</CX.5>
+    </PID.3>
+    <PID.5>
+      <XPN.1>
+        <FN.1>MURPHY</FN.1>
+      </XPN.1>
+      <XPN.2>MARK</XPN.2>
+      <XPN.3/>
+      <XPN.4/>
+      <XPN.5>MR</XPN.5>
+      <XPN.6/>
+      <XPN.7>L</XPN.7>
+    </PID.5>
+    <PID.7>
+      <TS.1>19370429</TS.1>
+    </PID.7>
+    <PID.8>M</PID.8>
+    <PID.11>
+      <XAD.1>
+        <SAD.1>MY ADDRESS, NICE STREET</SAD.1>
+      </XAD.1>
+      <XAD.2>NICE AREA</XAD.2>
+      <XAD.3>COUNTY WICKLOW</XAD.3>
+      <XAD.4/>
+      <XAD.5>EIRCODE</XAD.5>
+    </PID.11>
+     <PID.13>
+      <XTN.1>087 7788997</XTN.1>
+      <XTN.2>PRN</XTN.2>
+      <XTN.3>CP</XTN.3>
+    </PID.13>
+  </PID>
+  <DG1>
+    <DG1.1>1</DG1.1>
+    <DG1.2></DG1.2>
+    <DG1.3>
+      <CE.1>XTCC995</CE.1>
+      <CE.2>Stones</CE.2>
+      <CE.3>SCT</CE.3>
+      <CE.4></CE.4>
+      <CE.5></CE.5>
+      <CE.6></CE.6>
+    </DG1.3>
+    <DG1.4>Kidney Stones</DG1.4>
+    <DG1.5></DG1.5>
+    <DG1.6>W</DG1.6>
+    <DG1.16>
+      <XCN.1></XCN.1>
+      <XCN.2>
+        <FN.1>SMITH</FN.1>
+      </XCN.2>
+      <XCN.3>MARY</XCN.3>
+      <XCN.4></XCN.4>
+      <XCN.5></XCN.5>
+      <XCN.6>PROF.</XCN.6>
+    </DG1.16>
+    <DG1.17>C</DG1.17>
+    <DG1.18></DG1.18>
+  </DG1>
+  <AL1>
+    <AL1.1>
+      <CE.1>1</CE.1>
+      <CE.2></CE.2>
+      <CE.3></CE.3>
+    </AL1.1>
+    <AL1.2>
+      <CE.1>XXXXXX</CE.1>
+      <CE.2>Contact Sensitivity to Cat hair</CE.2>
+      <CE.3>SCT</CE.3>
+    </AL1.2>
+    <AL1.3>
+      <CE.1>XAR703</CE.1>
+      <CE.2>Allergic Rhinitis</CE.2>
+      <CE.3>SCT</CE.3>
+    </AL1.3>
+    <AL1.4>
+      <CE.1>MI</CE.1>
+      <CE.2>MILD</CE.2>
+      <CE.3>HL70128</CE.3>
+    </AL1.4>
+    <AL1.5>Constant runny nose!</AL1.5>
+  </AL1>
+  <REF_I12.PROCEDURE>
+    <PR1>
+      <PR1.1>1</PR1.1>
+      <PR1.2>L</PR1.2>
+      <PR1.3>
+        <CE.1>ASD4545-O9</CE.1>
+        <CE.2>MRI</CE.2>
+        <CE.3>SCT</CE.3>
+      </PR1.3>
+      <PR1.4>Magnetic resonance imaging of head</PR1.4>
+      <PR1.5> 
+		<TS.1>20250712085113</TS.1>
+	  </PR1.5>
+      <PR1.6>LP</PR1.6>
+    </PR1>
+  </REF_I12.PROCEDURE>
+  <REF_I12.PROCEDURE>
+    <PR1>
+      <PR1.1>2</PR1.1>
+      <PR1.2>L</PR1.2>
+      <PR1.3>
+        <CE.1>XXXXXX</CE.1>
+        <CE.2>Imaging</CE.2>
+        <CE.3>SCT</CE.3>
+      </PR1.3>
+      <PR1.4>Computerised tomography of brain</PR1.4>
+      <PR1.5> 
+		<TS.1>20240712085113</TS.1>
+	  </PR1.5>
+      <PR1.6>LP</PR1.6>
+    </PR1>
+  </REF_I12.PROCEDURE>
+  <REF_I12.OBSERVATION>
+    <OBR>
+      <OBR.1>1</OBR.1>
+      <OBR.2>
+        <EI.1>11613310</EI.1>
+        <EI.2>Episode Number</EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.2>
+      <OBR.3>
+        <EI.1>456444</EI.1>
+        <EI.2></EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.3>
+      <OBR.4>
+        <CE.1>371534008</CE.1>
+        <CE.2>Summary Report</CE.2>
+        <CE.3>SCT</CE.3>
+        <CE.4></CE.4>
+        <CE.5></CE.5>
+        <CE.6></CE.6>
+      </OBR.4>
+      <OBR.7>
+        <TS.1>20251212112420</TS.1>
+      </OBR.7>
+    </OBR>
+    <REF_I12.RESULTS_NOTES>
+      <OBX>
+        <OBX.1>1</OBX.1>
+        <OBX.2>FT</OBX.2>
+        <OBX.3>
+          <CE.1>xxx-xx</CE.1>
+          <CE.2>Clinic Info</CE.2>
+          <CE.3>L</CE.3>
+          <CE.4></CE.4>
+          <CE.5></CE.5>
+          <CE.6></CE.6>
+        </OBX.3>
+        <OBX.5>Patient requires a blood transfusion in the next 2 weeks.</OBX.5>
+        <OBX.6/>
+        <OBX.11>F</OBX.11>
+        <OBX.14>
+          <TS.1>20251012112420</TS.1>
+        </OBX.14>
+      </OBX>
+    </REF_I12.RESULTS_NOTES>
+    <REF_I12.RESULTS_NOTES>
+      <OBX>
+        <OBX.1>2</OBX.1>
+        <OBX.2>FT</OBX.2>
+        <OBX.3>
+          <CE.1>xxx-xx</CE.1>
+          <CE.2>Clinic Info</CE.2>
+          <CE.3>L</CE.3>
+          <CE.4></CE.4>
+          <CE.5></CE.5>
+          <CE.6></CE.6>
+        </OBX.3>
+        <OBX.5>Use special pillows, foam cushions, booties, or mattress pads to reduce the pressure.</OBX.5>
+        <OBX.6/>
+        <OBX.11>F</OBX.11>
+        <OBX.14>
+          <TS.1>20251012112420</TS.1>
+        </OBX.14>
+      </OBX>
+    </REF_I12.RESULTS_NOTES>
+  </REF_I12.OBSERVATION>
+  <REF_I12.OBSERVATION>
+    <OBR>
+      <OBR.1>2</OBR.1>
+      <OBR.2>
+        <EI.1>11613310</EI.1>
+        <EI.2>Episode Number</EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.2>
+      <OBR.3>
+        <EI.1>DS9162</EI.1>
+        <EI.2></EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.3>
+      <OBR.4>
+        <CE.1>80943009</CE.1>
+        <CE.2>Risk Factors</CE.2>
+        <CE.3>SCT</CE.3>
+        <CE.4></CE.4>
+        <CE.5></CE.5>
+        <CE.6></CE.6>
+      </OBR.4>
+      <OBR.7>
+        <TS.1>20251012112420</TS.1>
+      </OBR.7>
+    </OBR>
+    <REF_I12.RESULTS_NOTES>
+      <OBX>
+        <OBX.1>1</OBX.1>
+        <OBX.2>FT</OBX.2>
+        <OBX.3>
+          <CE.1>80943009</CE.1>
+          <CE.2>Alert(s)</CE.2>
+          <CE.3>SCT</CE.3>
+        </OBX.3>
+        <OBX.5>MRSA Positive on admission screen</OBX.5>
+        <OBX.6/>
+        <OBX.11>F</OBX.11>
+        <OBX.14>
+          <TS.1>20251012112420</TS.1>
+        </OBX.14>
+      </OBX>
+    </REF_I12.RESULTS_NOTES>
+  </REF_I12.OBSERVATION>
+  <REF_I12.OBSERVATION>
+    <OBR>
+      <OBR.1>3</OBR.1>
+      <OBR.2>
+        <EI.1>11613310</EI.1>
+        <EI.2>Episode Number</EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.2>
+      <OBR.3>
+        <EI.1>DS9163</EI.1>
+        <EI.2></EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.3>
+      <OBR.4>
+        <CE.1>281647001</CE.1>
+        <CE.2>Adverse Events</CE.2>
+        <CE.3>SCT</CE.3>
+        <CE.4></CE.4>
+        <CE.5></CE.5>
+        <CE.6></CE.6>
+      </OBR.4>
+      <OBR.7>
+        <TS.1>20251012112420</TS.1>
+      </OBR.7>
+    </OBR>
+    <REF_I12.RESULTS_NOTES>
+      <OBX>
+        <OBX.1>1</OBX.1>
+        <OBX.2>FT</OBX.2>
+        <OBX.3>
+          <CE.1>281647001</CE.1>
+          <CE.2>Adverse Events</CE.2>
+          <CE.3>L</CE.3>
+        </OBX.3>
+        <OBX.5>adverse reaction to codeine: confusion</OBX.5>
+        <OBX.6/>
+        <OBX.11>F</OBX.11>
+        <OBX.14>
+          <TS.1>20251012112420</TS.1>
+        </OBX.14>
+      </OBX>
+    </REF_I12.RESULTS_NOTES>
+  </REF_I12.OBSERVATION>
+  <REF_I12.OBSERVATION>
+    <OBR>
+      <OBR.1>4</OBR.1>
+      <OBR.2>
+        <EI.1>11613310</EI.1>
+        <EI.2>Episode Number</EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.2>
+      <OBR.3>
+        <EI.1>DS9164</EI.1>
+        <EI.2></EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.3>
+      <OBR.4>
+        <CE.1>394656005</CE.1>
+        <CE.2>Hospital Course</CE.2>
+        <CE.3>SCT</CE.3>
+        <CE.4></CE.4>
+        <CE.5></CE.5>
+        <CE.6></CE.6>
+      </OBR.4>
+      <OBR.7>
+        <TS.1>20251012112420</TS.1>
+      </OBR.7>
+    </OBR>
+    <REF_I12.RESULTS_NOTES>
+      <OBX>
+        <OBX.1>1</OBX.1>
+        <OBX.2>FT</OBX.2>
+        <OBX.3>
+          <CE.1>394656005</CE.1>
+          <CE.2>Hospital Course</CE.2>
+          <CE.3>SCT</CE.3>
+        </OBX.3>
+        <OBX.5>Mr Murphy first underwent an anterior resection and loop ileostomy formation in November 2013, following the diagnosis of a T3N1 rectal tumour. He subsequently underwent XELODA adjuvant chemotherapy for 6 months, whcih was complicated by a DVT. He was initially started on Warfarin but this was subsequently discontinued under the advice of the vascular surgeons. Follow up CT scans were clear for any residual carcinoma.</OBX.5>
+        <OBX.6/>
+        <OBX.11>F</OBX.11>
+        <OBX.14>
+          <TS.1>20251012112420</TS.1>
+        </OBX.14>
+      </OBX>
+    </REF_I12.RESULTS_NOTES>
+  </REF_I12.OBSERVATION>
+  <REF_I12.OBSERVATION>
+    <OBR>
+      <OBR.1>5</OBR.1>
+      <OBR.2>
+        <EI.1>6231345245</EI.1>
+        <EI.2 />
+      </OBR.2>
+      <OBR.3>
+        <EI.1>BC770347E</EI.1>
+        <EI.2 />
+        <EI.3 />
+        <EI.4 />
+      </OBR.3>
+      <OBR.4>
+        <CE.1>386053000</CE.1>
+        <CE.2>Evaluation procedure</CE.2>
+        <CE.3>SCT</CE.3>
+        <CE.4 />
+        <CE.5 />
+        <CE.6 />
+      </OBR.4>
+      <OBR.7>
+        <TS.1>201108101234</TS.1>
+      </OBR.7>
+    </OBR>
+    <REF_I12.RESULTS_NOTES>
+      <OBX>
+        <OBX.1>1</OBX.1>
+        <OBX.2>TX</OBX.2>
+        <OBX.3>
+          <CE.1>WBC</CE.1>
+          <CE.2>WHITE CELL COUNT</CE.2>
+          <CE.3>L</CE.3>
+          <CE.4 />
+          <CE.5 />
+          <CE.6 />
+        </OBX.3>
+        <OBX.5>7.9</OBX.5>
+        <OBX.6>
+          <CE.1>x10^9/L</CE.1>
+          <CE.2>x10^9/L</CE.2>
+          <CE.3 />
+          <CE.4 />
+          <CE.5 />
+          <CE.6 />
+        </OBX.6>
+        <OBX.7>4-11</OBX.7>
+        <OBX.8 />
+        <OBX.11>F</OBX.11>
+      </OBX>
+    </REF_I12.RESULTS_NOTES>
+    <REF_I12.RESULTS_NOTES>
+        <OBX>
+        <OBX.1>2</OBX.1>
+        <OBX.2>FT</OBX.2>
+        <OBX.3>
+          <CE.1>AMPO</CE.1>
+          <CE.2>Anti MPO (Modified)</CE.2>
+          <CE.3>L</CE.3>
+          <CE.4 />
+          <CE.5 />
+          <CE.6 />
+        </OBX.3>
+        <OBX.5>Anti MPO (Modified) 0.2 IU/ml</OBX.5>
+        <OBX.6>
+          <CE.1>x10^9/L</CE.1>
+          <CE.2>x10^9/L</CE.2>
+          <CE.3 />
+          <CE.4 />
+          <CE.5 />
+          <CE.6 />
+        </OBX.6>
+        <OBX.7>0.0 to 3.5</OBX.7>
+        <OBX.8 />
+        <OBX.11>F</OBX.11>
+      </OBX>
+    </REF_I12.RESULTS_NOTES>
+    <REF_I12.RESULTS_NOTES>
+      <OBX>
+        <OBX.1>2</OBX.1>
+        <OBX.2>FT</OBX.2>
+        <OBX.3>
+          <CE.1>CSFP</CE.1>
+          <CE.2>CSF Protein</CE.2>
+          <CE.3>L</CE.3>
+          <CE.4></CE.4>
+          <CE.5></CE.5>
+          <CE.6></CE.6>
+        </OBX.3>
+        <OBX.5>Abnormal CSF Protein 0.63 g/L ( 0.15 to 0.45 ) </OBX.5>
+        <OBX.6/>
+        <OBX.11>F</OBX.11>
+        <OBX.14>
+          <TS.1>20251012112420</TS.1>
+        </OBX.14>
+      </OBX>
+    </REF_I12.RESULTS_NOTES>
+  </REF_I12.OBSERVATION>
+  <REF_I12.OBSERVATION>
+    <OBR>
+      <OBR.1>6</OBR.1>
+      <OBR.2>
+        <EI.1>11613310</EI.1>
+        <EI.2>Episode Number</EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.2>
+      <OBR.3>
+        <EI.1>DS9165</EI.1>
+        <EI.2></EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.3>
+      <OBR.4>
+        <CE.1>18629005</CE.1>
+        <CE.2>Medication treatment</CE.2>
+        <CE.3>SCT</CE.3>
+        <CE.4></CE.4>
+        <CE.5></CE.5>
+        <CE.6></CE.6>
+      </OBR.4>
+      <OBR.7>
+        <TS.1>20251012112420</TS.1>
+      </OBR.7>
+    </OBR>
+    <REF_I12.RESULTS_NOTES>
+      <OBX>
+        <OBX.1>1</OBX.1>
+        <OBX.2>FT</OBX.2>
+        <OBX.3>
+          <CE.1>Medication treatment</CE.1>
+          <CE.2>Medication treatment</CE.2>
+          <CE.3>SCT</CE.3>
+          <CE.4></CE.4>
+          <CE.5></CE.5>
+          <CE.6></CE.6>
+        </OBX.3>
+        <OBX.5>Paracetamol 1 g qds po x 1/52</OBX.5>
+        <OBX.6/>
+        <OBX.11>F</OBX.11>
+        <OBX.14>
+          <TS.1>20251012112420</TS.1>
+        </OBX.14>
+      </OBX>
+    </REF_I12.RESULTS_NOTES>
+    <REF_I12.RESULTS_NOTES>
+      <OBX>
+        <OBX.1>2</OBX.1>
+        <OBX.2>FT</OBX.2>
+        <OBX.3>
+          <CE.1>Medication treatment</CE.1>
+          <CE.2>Medication treatment</CE.2>
+          <CE.3>SCT</CE.3>
+          <CE.4></CE.4>
+          <CE.5></CE.5>
+          <CE.6></CE.6>
+        </OBX.3>
+        <OBX.5>lactulose 15 ml tds po x 2/52</OBX.5>
+        <OBX.6/>
+        <OBX.11>F</OBX.11>
+        <OBX.14>
+          <TS.1>20251012112420</TS.1>
+        </OBX.14>
+      </OBX>
+    </REF_I12.RESULTS_NOTES>
+  </REF_I12.OBSERVATION>
+  <REF_I12.OBSERVATION>
+    <OBR>
+      <OBR.1>7</OBR.1>
+      <OBR.2>
+        <EI.1>11613310</EI.1>
+        <EI.2>Episode Number</EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.2>
+      <OBR.3>
+        <EI.1>DS9166</EI.1>
+        <EI.2></EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.3>
+      <OBR.4>
+        <CE.1>XXXXX-33</CE.1>
+        <CE.2>Medications Withheld</CE.2>
+        <CE.3>L</CE.3>
+        <CE.4></CE.4>
+        <CE.5></CE.5>
+        <CE.6></CE.6>
+      </OBR.4>
+      <OBR.7>
+        <TS.1>20251012112420</TS.1>
+      </OBR.7>
+    </OBR>
+    <REF_I12.RESULTS_NOTES>
+      <OBX>
+        <OBX.1>1</OBX.1>
+        <OBX.2>FT</OBX.2>
+        <OBX.3>
+          <CE.1>MEDDISC</CE.1>
+          <CE.2>Withheld</CE.2>
+          <CE.3>L</CE.3>
+          <CE.4></CE.4>
+          <CE.5></CE.5>
+          <CE.6></CE.6>
+        </OBX.3>
+        <OBX.5>Codeine Phosphate 30mg tds po X 3/7</OBX.5>
+        <OBX.6/>
+        <OBX.11>F</OBX.11>
+        <OBX.14>
+          <TS.1>20251012112420</TS.1>
+        </OBX.14>
+      </OBX>
+    </REF_I12.RESULTS_NOTES>
+  </REF_I12.OBSERVATION>
+  <REF_I12.OBSERVATION>
+    <OBR>
+      <OBR.1>8</OBR.1>
+      <OBR.2>
+        <EI.1>11613310</EI.1>
+        <EI.2>Episode Number</EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.2>
+      <OBR.3>
+        <EI.1>DS9167</EI.1>
+        <EI.2></EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.3>
+      <OBR.4>
+        <CE.1>308273005</CE.1>
+        <CE.2>Hospital Actions</CE.2>
+        <CE.3>SCT</CE.3>
+        <CE.4></CE.4>
+        <CE.5></CE.5>
+        <CE.6></CE.6>
+      </OBR.4>
+      <OBR.7>
+        <TS.1>20251012112420</TS.1>
+      </OBR.7>
+    </OBR>
+    <REF_I12.RESULTS_NOTES>
+      <OBX>
+        <OBX.1>1</OBX.1>
+        <OBX.2>FT</OBX.2>
+        <OBX.3>
+          <CE.1>308273005</CE.1>
+          <CE.2>Follow-up</CE.2>
+          <CE.3>SCT</CE.3>
+        </OBX.3>
+        <OBX.5>
+          Follow up Plan by Admitting Team - to be seen in colorectal OPD in 4-6 weeks
+        </OBX.5>
+        <OBX.6/>
+        <OBX.11>F</OBX.11>
+        <OBX.14>
+          <TS.1>20251012112420</TS.1>
+        </OBX.14>
+      </OBX>
+    </REF_I12.RESULTS_NOTES>
+    <REF_I12.RESULTS_NOTES>
+      <OBX>
+        <OBX.1>1</OBX.1>
+        <OBX.2>FT</OBX.2>
+        <OBX.3>
+          <CE.1>308273005</CE.1>
+          <CE.2>Action</CE.2>
+          <CE.3>SCT</CE.3>
+        </OBX.3>
+        <OBX.5>He will have a CT abdomen as an OPD patient in 2-3 weeks post-discharge</OBX.5>
+        <OBX.6/>
+        <OBX.11>F</OBX.11>
+        <OBX.14>
+          <TS.1>20251012112420</TS.1>
+        </OBX.14>
+      </OBX>
+    </REF_I12.RESULTS_NOTES>
+  </REF_I12.OBSERVATION>
+  <REF_I12.OBSERVATION>
+    <OBR>
+      <OBR.1>9</OBR.1>
+      <OBR.2>
+        <EI.1>11613310</EI.1>
+        <EI.2>Episode Number</EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.2>
+      <OBR.3>
+        <EI.1>DS9167</EI.1>
+        <EI.2></EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.3>
+      <OBR.4>
+        <CE.1>183561008</CE.1>
+        <CE.2>GP Actions</CE.2>
+        <CE.3>SCT</CE.3>
+        <CE.4></CE.4>
+        <CE.5></CE.5>
+        <CE.6></CE.6>
+      </OBR.4>
+      <OBR.7>
+        <TS.1>20251012112420</TS.1>
+      </OBR.7>
+    </OBR>
+    <REF_I12.RESULTS_NOTES>
+      <OBX>
+        <OBX.1>1</OBX.1>
+        <OBX.2>FT</OBX.2>
+        <OBX.3>
+          <CE.1>183561008</CE.1>
+          <CE.2>Action</CE.2>
+          <CE.3>SCT</CE.3>
+        </OBX.3>
+        <OBX.5>FBC and LFTs required in the next 2 weeks</OBX.5>
+        <OBX.6/>
+        <OBX.11>F</OBX.11>
+        <OBX.14>
+          <TS.1>20251012112420</TS.1>
+        </OBX.14>
+      </OBX>
+    </REF_I12.RESULTS_NOTES>
+  </REF_I12.OBSERVATION>
+  <REF_I12.OBSERVATION>
+    <OBR>
+      <OBR.1>10</OBR.1>
+      <OBR.2>
+        <EI.1>11613310</EI.1>
+        <EI.2>Episode Number</EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.2>
+      <OBR.3>
+        <EI.1>DS9161</EI.1>
+        <EI.2></EI.2>
+        <EI.3></EI.3>
+        <EI.4></EI.4>
+      </OBR.3>
+      <OBR.4>
+        <CE.1>XXX-XX</CE.1>
+        <CE.2>Information Given</CE.2>
+        <CE.3>L</CE.3>
+        <CE.4></CE.4>
+        <CE.5></CE.5>
+        <CE.6></CE.6>
+      </OBR.4>
+      <OBR.7>
+        <TS.1>20251012112420</TS.1>
+      </OBR.7>
+    </OBR>
+    <REF_I12.RESULTS_NOTES>
+      <OBX>
+        <OBX.1>1</OBX.1>
+        <OBX.2>FT</OBX.2>
+        <OBX.3>
+          <CE.1>103313004</CE.1>
+          <CE.2>Information</CE.2>
+          <CE.3>SCT</CE.3>
+        </OBX.3>
+        <OBX.5>Communication and education material given to Patient's family and carer</OBX.5>
+        <OBX.6/>
+        <OBX.11>F</OBX.11>
+        <OBX.14>
+          <TS.1>20251012112420</TS.1>
+        </OBX.14>
+      </OBX>
+    </REF_I12.RESULTS_NOTES>
+  </REF_I12.OBSERVATION>
+  <REF_I12.PATIENT_VISIT>
+    <PV1>
+      <PV1.2>I</PV1.2>
+      <PV1.3>
+        <PL.1 />
+        <PL.2 />
+        <PL.3 />
+        <PL.4>
+          <HD.1 />
+          <HD.2 />
+          <HD.3 />
+        </PL.4>
+        <PL.5 />
+        <PL.6 />
+        <PL.7 />
+        <PL.8 />
+        <PL.9>Cavan Hospital</PL.9>
+      </PV1.3>
+      <PV1.4>L</PV1.4>
+      <PV1.7>
+        <XCN.1>ST. LUKE`S 1</XCN.1>
+        <XCN.2>
+          <FN.1>WINTER</FN.1>
+        </XCN.2>
+        <XCN.3>DESMOND</XCN.3>
+        <XCN.4/>
+        <XCN.5/>
+        <XCN.6>PROF</XCN.6>
+      </PV1.7>
+      <PV1.8>
+        <XCN.1> </XCN.1>
+        <XCN.2>
+          <FN.1>WINTER</FN.1>
+        </XCN.2>
+        <XCN.3>DESMOND</XCN.3>
+        <XCN.4/>
+        <XCN.5/>
+        <XCN.6>PROF</XCN.6>
+      </PV1.8>
+      <PV1.9>
+        <XCN.1>WIND</XCN.1>
+        <XCN.2>
+          <FN.1>WINTER  DESMOND</FN.1>
+        </XCN.2>
+        <XCN.3 />
+        <XCN.4 />
+        <XCN.5 />
+        <XCN.6 />
+      </PV1.9>
+      <PV1.14 />
+      <PV1.15 />
+      <PV1.19>
+        <CX.1 />
+      </PV1.19>
+      <PV1.36>01</PV1.36>
+      <PV1.37>
+        <DLD.1>232652</DLD.1>
+      </PV1.37>
+      <PV1.44>
+        <TS.1>20250730000000</TS.1>
+      </PV1.44>
+      <PV1.45>
+        <TS.1>20250806000000</TS.1>
+      </PV1.45>
+      <PV1.51 />
+    </PV1>
+  </REF_I12.PATIENT_VISIT>
+</REF_I12>
